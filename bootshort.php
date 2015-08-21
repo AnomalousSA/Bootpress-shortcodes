@@ -1,6 +1,6 @@
 <?php   
 	/* 
-	Plugin Name: Bootpress Short Codes
+	Plugin Name: Bootstrap Short Codes
 	Plugin URI: http://www.anomalous.co.za
 	Description: Add shortcodes to Bootsrap type websites.
 	Author: D.Maidens
@@ -89,7 +89,7 @@ add_shortcode( 'col', 'col_shortcode' );
 // [btn href="test" type="btn-danger" size="btn-large" disabled="disabled"]Here is the content[/btn]
 
 // Add Shortcode
-function btn_shortcode( $atts , $content = null ) {
+function btnshort_shortcode( $atts , $content = null ) {
 
 	// Attributes
 	extract( shortcode_atts(
@@ -104,7 +104,7 @@ function btn_shortcode( $atts , $content = null ) {
 	// Code
 	return '<a href="' . $href .'" class="btn ' . $type .' ' . $size .  ' ' . $disabled .  '">' . do_shortcode($content) . '</a>';
 }
-add_shortcode( 'btn', 'btn_shortcode' );
+add_shortcode( 'btnshort', 'btnshort_shortcode' );
 
 // Label Short Code
 // [label type=""]here is content[/label]
@@ -215,7 +215,7 @@ add_shortcode( 'modal', 'modal_shortcode' );
 	   }  
 	}  
 	function register_button($buttons) {  
-	   array_push($buttons, "rowfluid","column","button","label","badge","hero","head","carosel","caroselimg","modal");  // For each button add to the grid
+	   array_push($buttons, "rowfluid","column","btnshort","label","badge","hero","head","carosel","caroselimg","modal");  // For each button add to the grid
 	   return $buttons;  
 	}  
 	function add_plugin($plugin_array) {  

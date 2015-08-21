@@ -18,11 +18,11 @@
                 }  
             }); 
 
-			ed.addButton('button', {  
+			ed.addButton('btnshort', {  
                 title : 'Add a button',  
                 image : url+'/button.png',  
                 onclick : function() {  
-                     ed.selection.setContent('[btn href="" type="" size="" disabled=""]' + ed.selection.getContent() + '[/btn]');  
+                     ed.selection.setContent('[btnshort href="" type="" size="" disabled=""]' + ed.selection.getContent() + '[/btnshort]');  
 
                 }  
             });
@@ -78,7 +78,7 @@
                 title : 'Add a Modal Window',  
                 image : url+'/modal.png',  
                 onclick : function() {  
-                     ed.selection.setContent('[modal title=""]' + ed.selection.getContent() + '[/modal]');  
+                     ed.selection.setContent('[modal title=""]' + ed.selection.getContent() + '[/caroselimg]');  
 
                 }  
             });
