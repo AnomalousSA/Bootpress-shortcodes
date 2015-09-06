@@ -9,7 +9,7 @@
 
                 }  
             });
-			ed.addButton('column', {  
+            ed.addButton('column', {  
                 title : 'Add a Column',  
                 image : url+'/column.png',  
                 onclick : function() {  
@@ -18,7 +18,7 @@
                 }  
             }); 
 
-			ed.addButton('btnshort', {  
+            ed.addButton('btnshort', {  
                 title : 'Add a button',  
                 image : url+'/button.png',  
                 onclick : function() {  
@@ -26,7 +26,7 @@
 
                 }  
             });
-			ed.addButton('label', {  
+            ed.addButton('label', {  
                 title : 'Add a label',  
                 image : url+'/label.png',  
                 onclick : function() {  
@@ -34,7 +34,7 @@
 
                 }  
             });
-			ed.addButton('badge', {  
+            ed.addButton('badge', {  
                 title : 'Add a Badge',  
                 image : url+'/badge.png',  
                 onclick : function() {  
@@ -42,7 +42,7 @@
 
                 }  
             });
-			ed.addButton('hero', {  
+            ed.addButton('hero', {  
                 title : 'Add a Hero Unit',  
                 image : url+'/hero.png',  
                 onclick : function() {  
@@ -50,7 +50,7 @@
 
                 }  
             });
-			ed.addButton('head', {  
+            ed.addButton('head', {  
                 title : 'Add a Header',  
                 image : url+'/head.png',  
                 onclick : function() {  
@@ -74,7 +74,7 @@
 
                 }  
             });
-			 ed.addButton('modal', {  
+            ed.addButton('modal', {  
                 title : 'Add a Modal Window',  
                 image : url+'/modal.png',  
                 onclick : function() {  
